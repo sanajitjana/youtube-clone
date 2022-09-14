@@ -1,0 +1,164 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #181818;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+#navbar {
+  height: 56px;
+  padding: 0px 25px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  background-color: #202020;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+}
+#left-side {
+  height: 56px;
+  display: flex;
+  align-items: center;
+}
+#search-place {
+  height: 56px;
+  display: flex;
+  align-items: center;
+}
+#right-side {
+  height: 56px;
+  display: flex;
+  padding: 0px 50px 0px 0px;
+  align-items: center;
+  justify-content: flex-end;
+}
+#menu {
+  color: white;
+}
+#youtube-logo {
+  margin-left: 25px;
+}
+#logo-text {
+  color: white;
+  margin-left: 5px;
+  font-size: 18px;
+  font-weight: 600;
+}
+#logo-text span {
+  font-size: 10px;
+  color: grey;
+  position: absolute;
+  top: 10px;
+  margin-left: 3px;
+}
+#microphone {
+  color: white;
+  font-size: 18px;
+}
+#microphone-btn {
+  background-color: #121212;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 50px;
+  margin-left: 5px;
+}
+#search-btn {
+  background-color: #313131;
+  border: 1px solid #313131;
+  margin-left: -4px;
+  height: 43px;
+  width: 64px;
+}
+#search-icon {
+  color: white;
+  font-size: 18px;
+}
+#search-input {
+  background-color: #121212;
+  outline: none;
+  border: 1px solid #313131;
+  height: 40px;
+  width: 535px;
+  color: white;
+  padding: 0px 5px;
+  font-size: 16px;
+}
+#create-video,
+#youtube-apps,
+#notification {
+  background-color: #202020;
+  border: none;
+}
+#video-camera,
+#yt-apps-icon,
+#notifi-icon {
+  font-size: 18px;
+  color: white;
+  margin-right: 22px;
+}
+#account-logo {
+  background-color: #ec407a;
+  color: white;
+  border-radius: 50px;
+  font-size: 18px;
+  padding: 5px 10px;
+}
+#menu:hover,
+#youtube-logo:hover,
+#account-logo:hover,
+#logo-text span:hover,
+#microphone-btn:hover,
+#search-btn:hover,
+#account-logo:hover,
+#create-video:hover,
+#youtube-apps:hover,
+#notification:hover,
+#account-logo:hover,
+#logo-text:hover {
+  cursor: pointer;
+}
+#container {
+  width: 85%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 800px auto;
+  gap: 20px;
+}
+#main-video {
+  margin-top: 80px;
+}
+#video-playlist {
+  margin-top: 80px;
+}
+#card {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 2px;
+}
+h3 {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+}
+p {
+  font-size: 12px;
+  margin-top: -10px;
+  color: rgb(188, 186, 186);
+}
+span {
+  margin-top: 10px;
+}
+#playlist-img {
+  width: 168px;
+  height: 94px;
+}
+h2 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+}
+#views {
+  font-size: 14px;
+  margin-top: 10px;
+}

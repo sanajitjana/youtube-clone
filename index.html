@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Youtube Mini App III (05-07-2022) - Sanajit Jana (fw19_0513)</title>
+
+    <!-- favicon -->
+    <link
+      rel="shortcut icon"
+      href="https://www.youtube.com/favicon.ico"
+      type="image/x-icon"
+    />
+
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+      integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style/index.css" />
+  </head>
+  <body>
+    <div id="navbar">
+      <div id="left-side">
+        <i class="fa fa-bars" aria-hidden="true" id="menu"></i>
+        <img
+          id="youtube-logo"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/800px-YouTube_full-color_icon_%282017%29.svg.png"
+          alt="youtube"
+          height="20px"
+        />
+        <p id="logo-text">YouTube<span>IN</span></p>
+      </div>
+      <div id="search-place">
+        <input type="text" id="search-input" placeholder="Search" />
+        <button id="search-btn">
+          <i class="fa fa-search" id="search-icon" aria-hidden="true"></i>
+        </button>
+        <button id="microphone-btn">
+          <i class="fa fa-microphone" id="microphone" aria-hidden="true"></i>
+        </button>
+      </div>
+      <div id="right-side">
+        <select id="video-sorting">
+          <option value="">Video Sorting</option>
+          <option value="nf">Newest first</option>
+          <option value="of">Oldest first</option>
+        </select>
+        <button id="create-video">
+          <i
+            class="fa fa-video-camera"
+            id="video-camera"
+            aria-hidden="true"
+          ></i>
+        </button>
+        <button id="youtube-apps">
+          <i class="fa fa-th" id="yt-apps-icon" aria-hidden="true"></i>
+        </button>
+        <button id="notification">
+          <i class="fa fa-bell-o" id="notifi-icon" aria-hidden="true"></i>
+        </button>
+        <button id="account-logo">S</button>
+      </div>
+    </div>
+    <div id="container">
+      <div id="left-side-action">
+        <div class="home-action">
+          <i class="fa fa-home" aria-hidden="true"></i>
+          <p>Home</p>
+        </div>
+        <div class="explore-action">
+          <i class="fa fa-compass" aria-hidden="true"></i>
+          <p>Explore</p>
+        </div>
+        <div class="shorts-action">
+          <i class="fa fa-play" aria-hidden="true"></i>
+          <p>Shorts</p>
+        </div>
+        <div class="subscription-action">
+          <i class="fa fa-television" aria-hidden="true"></i>
+          <p>Subscriptions</p>
+        </div>
+        <hr id="left-side-hr" />
+        <div class="library-action">
+          <i class="fa fa-caret-square-o-right" aria-hidden="true"></i>
+          <p>Library</p>
+        </div>
+        <div class="history-action">
+          <i class="fa fa-history" aria-hidden="true"></i>
+          <p>History</p>
+        </div>
+        <div class="watch-later-action">
+          <i class="fa fa-clock-o" aria-hidden="true"></i>
+          <p>Watch Later</p>
+        </div>
+        <div class="liked-videos-action">
+          <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+          <p>Liked Videos</p>
+        </div>
+        <hr id="left-side-hr" />
+        <p>MORE FROM YOUTUBE</p>
+        <div class="learninigs-action">
+          <i class="fa fa-lightbulb-o" aria-hidden="true"></i>
+          <p>Learning</p>
+        </div>
+        <div class="movies-action">
+          <i class="fa fa-film" aria-hidden="true"></i>
+          <p>Movies</p>
+        </div>
+        <div class="sports-action">
+          <i class="fa fa-trophy" aria-hidden="true"></i>
+          <p>Sports</p>
+        </div>
+        <hr id="left-side-hr" />
+        <div class="settings-action">
+          <i class="fa fa-cog" aria-hidden="true"></i>
+          <p>Settings</p>
+        </div>
+        <div class="report-action">
+          <i class="fa fa-flag-o" aria-hidden="true"></i>
+          <p>Report history</p>
+        </div>
+        <div class="help-action">
+          <i class="fa fa-question-circle-o" aria-hidden="true"></i>
+          <p>Help</p>
+        </div>
+        <div class="feedback-action">
+          <i class="fa fa-comment-o" aria-hidden="true"></i>
+          <p>Send feedback</p>
+        </div>
+      </div>
+      <div id="videos-container"></div>
+    </div>
+  </body>
+  <script src="./script/index.js"></script>
+</html>

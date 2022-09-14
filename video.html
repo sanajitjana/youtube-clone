@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Youtube Mini App III (05-07-2022) - Sanajit Jana (fw19_0513)</title>
+
+    <!-- favicon -->
+    <link
+      rel="shortcut icon"
+      href="https://www.youtube.com/favicon.ico"
+      type="image/x-icon"
+    />
+
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+      integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style/video.css" />
+  </head>
+  <body>
+    <div id="navbar">
+      <div id="left-side">
+        <i class="fa fa-bars" aria-hidden="true" id="menu"></i>
+        <img
+          id="youtube-logo"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/800px-YouTube_full-color_icon_%282017%29.svg.png"
+          alt="youtube"
+          height="20px"
+        />
+        <p id="logo-text">YouTube<span>IN</span></p>
+      </div>
+      <div id="search-place">
+        <input type="text" name="" id="search-input" placeholder="Search" />
+        <button id="search-btn">
+          <i class="fa fa-search" id="search-icon" aria-hidden="true"></i>
+        </button>
+        <button id="microphone-btn">
+          <i class="fa fa-microphone" id="microphone" aria-hidden="true"></i>
+        </button>
+      </div>
+      <div id="right-side">
+        <button id="create-video">
+          <i
+            class="fa fa-video-camera"
+            id="video-camera"
+            aria-hidden="true"
+          ></i>
+        </button>
+        <button id="youtube-apps">
+          <i class="fa fa-th" id="yt-apps-icon" aria-hidden="true"></i>
+        </button>
+        <button id="notification">
+          <i class="fa fa-bell-o" id="notifi-icon" aria-hidden="true"></i>
+        </button>
+        <button id="account-logo">S</button>
+      </div>
+    </div>
+    <div id="container">
+      <div id="main-video">
+        <iframe
+          width="800"
+          height="500"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <h2 id="title"></h2>
+        <p id="views"></p>
+      </div>
+      <div id="video-playlist">
+        <div id="card">
+          <img
+            id="playlist-img"
+            src="https://i.ytimg.com/vi/cVKS3wqVbZ0/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCr34BUjP_bYzqR3z5Smsxw0e5Jhw"
+            alt=""
+          />
+          <div>
+            <h3>IF THE MCU REPEATED THEIR HERO THEMES - AVENGERS</h3>
+            <p>Spencer Creaghan<br /></p>
+            <p><span>13M views</span> • <span>5 years ago</span></p>
+          </div>
+        </div>
+        <div id="card">
+          <img
+            id="playlist-img"
+            src="https://i.ytimg.com/vi/vyI3gCBa_hM/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDKTJAZoEAxavRNpxzF0Z7-WRvpTQ"
+            alt=""
+          />
+          <div>
+            <h3>IF THE MCU REPEATED THEIR HERO THEMES - AVENGERS</h3>
+            <p>Spencer Creaghan<br /></p>
+            <p><span>13M views</span> • <span>5 years ago</span></p>
+          </div>
+        </div>
+        <div id="card">
+          <img
+            id="playlist-img"
+            src="https://i.ytimg.com/vi/24UAWtIEGIg/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB2lObpwI4vwoH2PUdgwioHQHg4pA"
+            alt=""
+          />
+          <div>
+            <h3>IF THE MCU REPEATED THEIR HERO THEMES - AVENGERS</h3>
+            <p>Spencer Creaghan<br /></p>
+            <p><span>13M views</span> • <span>5 years ago</span></p>
+          </div>
+        </div>
+        <div id="card">
+          <img
+            id="playlist-img"
+            src="https://i.ytimg.com/vi/Iia4CzgGPX4/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC4R0aIGDNKN0E-Qfg1Cv-ysyImGw"
+            alt=""
+          />
+          <div>
+            <h3>IF THE MCU REPEATED THEIR HERO THEMES - AVENGERS</h3>
+            <p>Spencer Creaghan<br /></p>
+            <p><span>13M views</span> • <span>5 years ago</span></p>
+          </div>
+        </div>
+        <div id="card">
+          <img
+            id="playlist-img"
+            src="https://i.ytimg.com/vi/CcyJNDrUUcc/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBmTRTT1nSdy8hgXNXj1V9pEWQ8DA"
+            alt=""
+          />
+          <div>
+            <h3>IF THE MCU REPEATED THEIR HERO THEMES - AVENGERS</h3>
+            <p>Spencer Creaghan<br /></p>
+            <p><span>13M views</span> • <span>5 years ago</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./script/video.js"></script>
+</html>
